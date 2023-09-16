@@ -1,0 +1,338 @@
+{
+  "version": 4,
+  "terraform_version": "1.5.5",
+  "serial": 12,
+  "lineage": "635ea791-d71f-6343-b712-f7cc1dba5eca",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "data",
+      "type": "tfe_variables",
+      "name": "all",
+      "provider": "provider[\"registry.terraform.io/hashicorp/tfe\"]",
+      "instances": [
+        {
+          "index_key": "ws-DXxQvr5PkqLuQG8g",
+          "schema_version": 0,
+          "attributes": {
+            "env": [],
+            "id": "variables/ws-DXxQvr5PkqLuQG8g",
+            "terraform": [],
+            "variable_set_id": null,
+            "variables": [],
+            "workspace_id": "ws-DXxQvr5PkqLuQG8g"
+          },
+          "sensitive_attributes": []
+        },
+        {
+          "index_key": "ws-jXKPLX5bvEcFkc4w",
+          "schema_version": 0,
+          "attributes": {
+            "env": [
+              {
+                "category": "env",
+                "hcl": false,
+                "id": "var-yBRnQW7t6eoygdq5",
+                "name": "AWS_ACCESS_KEY_ID",
+                "sensitive": false,
+                "value": "AKIA3QEAOIQDSLJEH3UH"
+              },
+              {
+                "category": "env",
+                "hcl": false,
+                "id": "var-2U9cZQtCT5JDgRLJ",
+                "name": "AWS_SECRET_ACCESS_KEY",
+                "sensitive": true,
+                "value": ""
+              }
+            ],
+            "id": "variables/ws-jXKPLX5bvEcFkc4w",
+            "terraform": [
+              {
+                "category": "terraform",
+                "hcl": false,
+                "id": "var-n3VUihG1CuKV8wx3",
+                "name": "AWS_REGION",
+                "sensitive": false,
+                "value": "us-east-1"
+              }
+            ],
+            "variable_set_id": null,
+            "variables": [
+              {
+                "category": "terraform",
+                "hcl": false,
+                "id": "var-n3VUihG1CuKV8wx3",
+                "name": "AWS_REGION",
+                "sensitive": false,
+                "value": "us-east-1"
+              },
+              {
+                "category": "env",
+                "hcl": false,
+                "id": "var-yBRnQW7t6eoygdq5",
+                "name": "AWS_ACCESS_KEY_ID",
+                "sensitive": false,
+                "value": "AKIA3QEAOIQDSLJEH3UH"
+              },
+              {
+                "category": "env",
+                "hcl": false,
+                "id": "var-2U9cZQtCT5JDgRLJ",
+                "name": "AWS_SECRET_ACCESS_KEY",
+                "sensitive": true,
+                "value": ""
+              }
+            ],
+            "workspace_id": "ws-jXKPLX5bvEcFkc4w"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "tfe_workspace",
+      "name": "all",
+      "provider": "provider[\"registry.terraform.io/hashicorp/tfe\"]",
+      "instances": [
+        {
+          "index_key": "akshat0694githubio",
+          "schema_version": 0,
+          "attributes": {
+            "allow_destroy_plan": true,
+            "assessments_enabled": false,
+            "auto_apply": false,
+            "description": "",
+            "execution_mode": "remote",
+            "file_triggers_enabled": false,
+            "global_remote_state": false,
+            "html_url": "https://app.terraform.io/app/test-123433/workspaces/akshat0694githubio",
+            "id": "ws-DXxQvr5PkqLuQG8g",
+            "name": "akshat0694githubio",
+            "operations": true,
+            "organization": "test-123433",
+            "policy_check_failures": 0,
+            "project_id": "prj-17ERPS7W8zQC7ubz",
+            "queue_all_runs": false,
+            "remote_state_consumer_ids": [],
+            "resource_count": 0,
+            "run_failures": 1,
+            "runs_count": 1,
+            "source_name": "",
+            "source_url": "",
+            "speculative_enabled": false,
+            "ssh_key_id": null,
+            "structured_run_output_enabled": true,
+            "tag_names": [],
+            "terraform_version": "1.1.6",
+            "trigger_patterns": [],
+            "trigger_prefixes": [],
+            "vcs_repo": [
+              {
+                "branch": "",
+                "github_app_installation_id": "ghain-pxs8pejWVFqmAZ6A",
+                "identifier": "Akshat0694/akshat0694.github.io",
+                "ingress_submodules": false,
+                "oauth_token_id": "",
+                "tags_regex": ""
+              }
+            ],
+            "working_directory": ""
+          },
+          "sensitive_attributes": []
+        },
+        {
+          "index_key": "migration",
+          "schema_version": 0,
+          "attributes": {
+            "allow_destroy_plan": true,
+            "assessments_enabled": false,
+            "auto_apply": false,
+            "description": "Migration from tf cloud to stackguardian platform. ",
+            "execution_mode": "remote",
+            "file_triggers_enabled": false,
+            "global_remote_state": false,
+            "html_url": "https://app.terraform.io/app/test-123433/workspaces/migration",
+            "id": "ws-jXKPLX5bvEcFkc4w",
+            "name": "migration",
+            "operations": true,
+            "organization": "test-123433",
+            "policy_check_failures": 0,
+            "project_id": "prj-8SbftNHQ8CQpmyvX",
+            "queue_all_runs": false,
+            "remote_state_consumer_ids": [],
+            "resource_count": 1,
+            "run_failures": 0,
+            "runs_count": 3,
+            "source_name": "",
+            "source_url": "",
+            "speculative_enabled": true,
+            "ssh_key_id": null,
+            "structured_run_output_enabled": true,
+            "tag_names": [],
+            "terraform_version": "1.5.6",
+            "trigger_patterns": [],
+            "trigger_prefixes": [],
+            "vcs_repo": [],
+            "working_directory": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "tfe_workspace_ids",
+      "name": "all",
+      "provider": "provider[\"registry.terraform.io/hashicorp/tfe\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "exclude_tags": null,
+            "full_names": {
+              "akshat0694githubio": "test-123433/akshat0694githubio",
+              "migration": "test-123433/migration"
+            },
+            "id": "test-123433/163128923",
+            "ids": {
+              "akshat0694githubio": "ws-DXxQvr5PkqLuQG8g",
+              "migration": "ws-jXKPLX5bvEcFkc4w"
+            },
+            "names": [
+              "*"
+            ],
+            "organization": "test-123433",
+            "tag_names": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "data",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "{\"stacks\":[{\"autodeploy\":false,\"env_vars\":[],\"labels\":[],\"manage_state\":true,\"name\":\"akshat0694githubio\",\"terraform_version\":\"1.1.6\",\"vcs\":{\"account\":\"akshat0694.github.io\",\"branch\":\"main\",\"namespace\":\"\",\"project_root\":\"\",\"provider\":\"github\",\"repository\":\"akshat0694.github.io\"}},{\"autodeploy\":false,\"env_vars\":[{\"hcl\":false,\"name\":\"TF_VAR_AWS_REGION\",\"sensitive\":false,\"value\":\"us-east-1\"},{\"hcl\":false,\"name\":\"AWS_ACCESS_KEY_ID\",\"sensitive\":false,\"value\":\"AKIA3QEAOIQDSLJEH3UH\"},{\"hcl\":false,\"name\":\"AWS_SECRET_ACCESS_KEY\",\"sensitive\":true,\"value\":\"\"}],\"labels\":[],\"manage_state\":true,\"name\":\"migration\",\"terraform_version\":\"1.5.6\",\"vcs\":{\"account\":\"\",\"branch\":\"main\",\"namespace\":\"\",\"project_root\":\"\",\"provider\":\"github\",\"repository\":\"\"}}]}",
+            "content_base64": null,
+            "content_base64sha256": "MhAh+LCXb08ioWBAIjQWMxsMwm9JlxydBNglTr5vvSM=",
+            "content_base64sha512": "Di+Kz5XQTYWOGeRNbIdEpx+tHifhgSQBM+fXO30Utj4jydezTvgSgZHP0TtovaE23GG8cXfyUVyAUEaHeQNCpA==",
+            "content_md5": "a466b37c6267c6e0e8bab44520739017",
+            "content_sha1": "e7b237bd0eb670d18ae4fabae85380743f05ccce",
+            "content_sha256": "321021f8b0976f4f22a16040223416331b0cc26f49971c9d04d8254ebe6fbd23",
+            "content_sha512": "0e2f8acf95d04d858e19e44d6c8744a71fad1e27e181240133e7d73b7d14b63e23c9d7b34ef8128191cfd13b68bda136dc61bc7177f2515c80504687790342a4",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./../../out/data.json",
+            "id": "e7b237bd0eb670d18ae4fabae85380743f05ccce",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.tfe_variables.all",
+            "data.tfe_workspace.all",
+            "data.tfe_workspace_ids.all"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "generate_temp_tf_files",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "index_key": "akshat0694githubio",
+          "schema_version": 0,
+          "attributes": {
+            "content": "terraform {\n  cloud {\n    organization = \"test-123433\"\n    workspaces {\n      name = \"akshat0694githubio\"\n    }\n  }\n}\n",
+            "content_base64": null,
+            "content_base64sha256": "bn9YYjTJovrzNxvts+4FTtfiqF288cEhiYJDgVRGY4g=",
+            "content_base64sha512": "TbPtiubsGJ9RPRDjxZcvwu1RCJyXH6zrvhq7TOgVg1M1jjgpZSZRueufm+zCJXTBg7yXfb84ffSH9NcWuAlZfg==",
+            "content_md5": "ab18bbaa364652354c960f56e76ef000",
+            "content_sha1": "8f22163b8b56ae5ab0ac09b2e36deaec16ce0351",
+            "content_sha256": "6e7f586234c9a2faf3371bedb3ee054ed7e2a85dbcf1c1218982438154466388",
+            "content_sha512": "4db3ed8ae6ec189f513d10e3c5972fc2ed51089c971facebbe1abb4ce8158353358e3829652651b9eb9f9becc22574c183bc977dbf387df487f4d716b809597e",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./../../out/tf-files/akshat0694githubio/main.tf",
+            "id": "8f22163b8b56ae5ab0ac09b2e36deaec16ce0351",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.tfe_workspace_ids.all"
+          ]
+        },
+        {
+          "index_key": "migration",
+          "schema_version": 0,
+          "attributes": {
+            "content": "terraform {\n  cloud {\n    organization = \"test-123433\"\n    workspaces {\n      name = \"migration\"\n    }\n  }\n}\n",
+            "content_base64": null,
+            "content_base64sha256": "GChb59GMIu7RZHoVBab5fXE3JSrC5IE1WPIbInLKHNs=",
+            "content_base64sha512": "57WFpCeSf7Qzqmx9HJg8kQGwShlqoNTSKs/lYoeZzn5R0h55/cQ3hTnEugjTJ3FzkmkFV3Pa2e04vlkF/jt7Wg==",
+            "content_md5": "9053fd0d30d5739b9690e0a65ef1a8f4",
+            "content_sha1": "18efa7b47a0f0f84d9d78754849b3902fffdd87b",
+            "content_sha256": "18285be7d18c22eed1647a1505a6f97d7137252ac2e4813558f21b2272ca1cdb",
+            "content_sha512": "e7b585a427927fb433aa6c7d1c983c9101b04a196aa0d4d22acfe5628799ce7e51d21e79fdc4378539c4ba08d32771739269055773dad9ed38be5905fe3b7b5a",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./../../out/tf-files/migration/main.tf",
+            "id": "18efa7b47a0f0f84d9d78754849b3902fffdd87b",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.tfe_workspace_ids.all"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "null_resource",
+      "name": "export_state_files",
+      "provider": "provider[\"registry.terraform.io/hashicorp/null\"]",
+      "instances": [
+        {
+          "index_key": "akshat0694githubio",
+          "schema_version": 0,
+          "attributes": {
+            "id": "4054330423852408366",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.tfe_workspace_ids.all",
+            "local_file.generate_temp_tf_files"
+          ]
+        },
+        {
+          "index_key": "migration",
+          "schema_version": 0,
+          "attributes": {
+            "id": "5665988299369518602",
+            "triggers": null
+          },
+          "sensitive_attributes": [],
+          "dependencies": [
+            "data.tfe_workspace_ids.all",
+            "local_file.generate_temp_tf_files"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
